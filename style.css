@@ -1,0 +1,141 @@
+html, body{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    border-right: solid white 1px;
+    padding: 0 30px 0 0;
+}
+li:nth-of-type(5){
+    border-right: none;
+}
+h1{
+margin-left: 4%;
+}
+
+body{
+    width:100%;
+    /*background-color:lightsalmon;*/
+}
+
+.bannerTop{
+    background-color: gray;
+    display:flex;
+    text-align: center;
+    
+}
+
+nav >.whereTo{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex:1;
+    margin-left: 40%;
+    margin-right: 1%;
+    list-style-type: none;
+}
+
+.backgroundPhoto {
+   
+    background-image: url('https://res.cloudinary.com/dq6nhmmpi/image/upload/v1583546644/sky_r8wmcr.jpg');
+    min-height: 300px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+  .container{
+      background-color: white;
+      width: 100%;
+    
+  }
+
+  .aboutMe{
+    background-color: lightyellow;
+    width: 100%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+   
+  }
+ 
+  .generalAssembly{
+      /*margin:50px 50px;*/
+      padding:10% 5%;
+      border: 1px solid black;
+      display:grid;
+      grid-gap:30px;
+      height: 500px;
+      grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+  }
+
+  .item:nth-of-type(1) {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color:black;
+
+  }
+
+  .item:nth-of-type(2) {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color:black;
+
+  }
+  .item:nth-of-type(3){
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-color:black;
+
+  }
+
+  .item:nth-of-type(4) {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color:black;
+
+  }
+
+  .item:nth-of-type(5) {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color:black;
+
+  }
+  .item:nth-of-type(6) {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color:black;
+
+  }
+
+
+  footer{
+      background-color: lightgreen;
+      border-top: black solid 1px;
+      display: flex;
+   
+      
+  }
+  footer > ul{
+      background-color:darkgreen;
+      display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex:1;
+    list-style-type: none;
+      /**/
+  }
+
+  /*article>p::first-letter*/
+
+  .container2{
+      height: 100%;
+  }
