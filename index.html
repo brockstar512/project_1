@@ -19,18 +19,22 @@ crossorigin="anonymous"></script>
 <header>
     <nav class="bannerTop">
         <h1 class="jmdb">JMDB</h1>
+      
+      
                 <ul class = "whereTo">
-                    <li><a href="#" class="1">About</a></li>
-                    <li><a href="#" class="2">GA</a></li>
-                    <li><a href="#" class="3">Contact</a></li>
+                    <li><a href="#" class="0">About</a></li>
+                    <li><a href="#" class="one">GA</a></li>
+                    <li><a href="#" class="four">Contact</a></li>
                 </ul>
+            
   		    </nav>
 </header>
 <div class = "backgroundPhoto"></div>
 <div class = "container">
-        <div class="aboutMe"><span class ='bio'><p>Hi My name is Marshall</p></span>
+  <div class="aboutMe"><span class ='bio'><h1>About Me</h1><p>Hi My name is Marshall...Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></span>
         </div>
-
+  
+            <h1>GA</h1>
         <div class = "generalAssembly">
             <div class = "item">
             </div>
@@ -45,22 +49,21 @@ crossorigin="anonymous"></script>
             <div class = "item">
             </div>
          </div>
-            <div class = "last">
-                <div class ="contact">
-                    <form action="action_page.php">
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                    <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Write here..." style="height:200px"></textarea>
-                    <input type="submit" value="Submit">
-                    </form>
-                </div>
-            </div>
-        <footer>
-            <div class= "footer"></div>
-        </footer>
+
+         <div class ="contact">
+           <div class="form"><h1>Contact</h1>
+             <p> Feel free to reach out!</p>
+             <form id = "contactform" method="post" action="">
+               <input name="name" type="text" class="form-control" placeholder="You Name" required><br>
+               <input name ="email" type="email" class="form-control" placeholder="Your Email" required><br>
+               <textarea name ="message" class ="form-control" placeholder="Message" rows ="4" required></textarea><br>
+               <input type ="Submit" class="form-control submit" value ="SEND MESSAGE">
+             </form>
+             
+           </div>
+           
+
+         </div>
 
 </div>
 
