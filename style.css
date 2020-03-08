@@ -52,6 +52,7 @@ nav >.whereTo{
 
   .container{
       background-color: white;
+      display:column;
       width: 100%;
     
   }
@@ -117,25 +118,46 @@ nav >.whereTo{
   }
 
 
-  footer{
-      background-color: lightgreen;
-      border-top: black solid 1px;
-      display: flex;
-   
-      
+  .last{
+    border: solid black 1px;
+    display: flex;
+    margin:0 25px;
+    padding:10px;
   }
-  footer > ul{
-      background-color:darkgreen;
-      display:flex;
-    justify-content:space-around;
-    align-items:center;
-    flex:1;
-    list-style-type: none;
-      /**/
-  }
+  
 
   /*article>p::first-letter*/
-
-  .container2{
-      height: 100%;
+/* W3 SCCCCCCCHHHHHHHHHO*/
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
   }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: gray;
+  }
+  
+  /* Add a background color and some padding around the form */
+  
+  footer{
+    margin-bottom:50px;
+  }
+/*
+  @media (min-width:1024px){} 
+  @media (min-width:768px) and (max-width:1023px){}
+  @media (max-width: 767px){}*/
