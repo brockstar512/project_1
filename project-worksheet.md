@@ -20,9 +20,16 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
 
+I would like my website to be easy to read. That is the most important aspect to me for my website. If I do need to include information I would like to have those section reveal themselves with a click. 
+
+
 ## Wireframes
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe.
+https://res.cloudinary.com/dq6nhmmpi/image/upload/v1583720495/Page_1_otd2ve.png
+https://res.cloudinary.com/dq6nhmmpi/image/upload/v1583720495/Page_2_rmwsfh.png
+https://res.cloudinary.com/dq6nhmmpi/image/upload/v1583720495/Page_3_r191hf.png
+
 
 ## Time/Priority Matrix 
 
