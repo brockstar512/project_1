@@ -64,9 +64,14 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| fixing hw pages| H | 2 hours| tdb| tdb|
+| Working with API | H | 5 hours| tbd| tbd |
+| Hamburger| H | 3 hours| tbd| tbd |
+| Style | H | 5 hours| tbd| tbd |
+| Seperating pages| L | 2 hours| tbd| tbd |
+| Rigamaroo Nancy | L | 3 hours| tbd| tbd |
+| Animation section | L | 3 hours| tbd| tbd |
+| Page transitions | L | 6hrs| tbd| tbd |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
