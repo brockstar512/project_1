@@ -20,15 +20,23 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
 
-I would like my website to be easy to read. That is the most important aspect to me for my website. If I do need to include information I would like to have those section reveal themselves with a click. 
+- sites I liked
+- [menu_for_mobile](https://www.margaretbialis.com/character-design)
+- [well_organized_and_easy_to_nnavigate](https://heropaulsee.com/character-designs)
+- [to_the_point_divs_could_be_smaller] (http://eloise-ress-barrow.surge.sh/index.html)
+- [shadow_boxes] (http://robertdiscipio.surge.sh/
+- [cool_page_transitions](http://andrewhollingworth.com/)
+
+
+- I would like my website to be easy to read. That is the most important aspect to me for my website. If I do need to include information I would like to have those section reveal themselves with a click. 
 
 
 ## Wireframes
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe.
-https://res.cloudinary.com/dq6nhmmpi/image/upload/v1583720495/Page_1_otd2ve.png
-https://res.cloudinary.com/dq6nhmmpi/image/upload/v1583720495/Page_2_rmwsfh.png
-https://res.cloudinary.com/dq6nhmmpi/image/upload/v1583720495/Page_3_r191hf.png
+[Desktop](https://res.cloudinary.com/dq6nhmmpi/image/upload/v1583720495/Page_1_otd2ve.png)
+[Tablet](https://res.cloudinary.com/dq6nhmmpi/image/upload/v1583720495/Page_2_rmwsfh.png)
+[Mobile](https://res.cloudinary.com/dq6nhmmpi/image/upload/v1583720495/Page_3_r191hf.png)
 
 
 ## Time/Priority Matrix 
@@ -47,14 +55,19 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### MVP (examples)
 
-- Pull data using google json api
-- Render data on page 
-- Allow user to choose favorites 
-- Save their choices in firebase
+- hamburger
+- working with the API
+- style
 
 #### PostMVP 
 
 - Anything else that is not MVP
+
+- Seperating pages into indivdual indexes.
+- adding Rigamaroo Nancy
+- Animation section 
+- Page transitions 
+- 3D models for banners
 
 ## Functional Components
 
@@ -65,13 +78,15 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | fixing hw pages| H | 2 hours| tdb| tdb|
-| Working with API | H | 5 hours| tbd| tbd |
+| Working with API | H | 3 hours| tbd| tbd|
 | Hamburger| H | 3 hours| tbd| tbd |
-| Style | H | 5 hours| tbd| tbd |
-| Seperating pages| L | 2 hours| tbd| tbd |
-| Rigamaroo Nancy | L | 3 hours| tbd| tbd |
-| Animation section | L | 3 hours| tbd| tbd |
-| Page transitions | L | 6hrs| tbd| tbd |
+| Style site boxes | H | 3 hours| tbd| tbd |
+| Style banner| H | 3 hours| tbd| tbd |
+| Getting email working| L| 1 hour| tbd| tbd |
+| Seperating pages| L | 3 hours| tbd| tbd |
+| adding book| L | 2 hours| tbd| tbd |
+| adding animation reel| L | 2 hours| tbd| tbd |
+| Total | H | 22hrs| tbd| tbd |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
