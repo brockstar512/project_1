@@ -2,13 +2,59 @@
 html, body{
   margin: 0px;
 }
+.navB{
+ 
+  text-align: right;
+  height:70px;
+  line-height:70px;
+  position:absolute;
+  right:10px;
+  top:0px;
+}
+.whereToB{
+  
+  width:200px;
+  display:none;
+  background-color:black;
+  padding-bottom:0px;
+
+}
+
+.whereToB a{
+  text-decoration: none;
+  color:gray;
+  margin:0;
+  margin-right:5px;
+  line-height: 70px;
+  border-bottom:1px solid #EAEAEB;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+label{
+  margin:0 40px 0 0;
+  font-size:26px;
+  line-height:70px;
+  display:block;
+}
+#toggle{
+  display:none;
+  cursor:pointer;
+}
+#toggle:checked +.whereToB{
+  display:block;
+}
+.whereTo{
+  display:none;
+}
 
 ul{
+  
 display:flex;
 justify-content:space-around;
 border-bottom: solid black 1px;
 border-top: solid black 1px;
-padding:5px 0 5px 0;
+padding:5px 0;
 list-style-type: none;
 margin-bottom:0px;
 }
@@ -38,7 +84,7 @@ padding: 0 10px 0 10px;
 
 .generalAssembly{
     /*margin:50px 50px;*/
-  padding: 0 30%;
+  padding: 0 20%;
   text-align:center;
     display:grid;
   height:auto;
@@ -115,6 +161,7 @@ background:transparent;
 font-size:15px;
 border-bottom: 1px solid gray;
 
+
 }
 form-control.submit{
 border-color:transparent;
@@ -139,14 +186,25 @@ background-color:lightgreen;
 
 /*      medium     */
 @media (min-width:768px) and (max-width:1023px){
+  .whereToB{
+    width:300px;
+  }
+  .whereToB a{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+  }
 
 
+  .whereTo{
+    display:none;
+  }
 
 .generalAssembly{
   /*margin:50px 50px;*/
   grid-gap: 10px;
-  padding: 0 20%;
-  height:450px;
+  padding: 0 10%;
+  height:400px;
   display:grid;
   grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -165,9 +223,13 @@ form{
 form-control.submit{
   border-color:transparent;
   font-size:15px;
+ 
 }
 
-
+.submit{
+  padding:10px 0 2px 0;
+  width:150px;
+}
 
 }
 
@@ -176,6 +238,10 @@ form-control.submit{
 /*            large           */
 
 @media (min-width:1024px){
+  .navB{
+    display:none;
+  }
+
   a{
     text-decoration: none;
     color: white;
@@ -191,7 +257,7 @@ li{
 li:nth-of-type(3){
     border-right: none;
 }
-h1{
+nav > h1{
 margin-left: 4%;
 }
 
@@ -317,6 +383,12 @@ nav >.whereTo{
     border-color:transparent;
     font-size:15px;
   }
+
+  .submit{
+    padding:10px 0 2px 0;
+    width:150px;
+  }
+  
   
   }
   
