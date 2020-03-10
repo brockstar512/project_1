@@ -22,9 +22,9 @@ Use this section to describe your final project and perhaps any links to relevan
 
 - sites I liked
 - [menu_for_mobile](https://www.margaretbialis.com/character-design)
-- [well_organized_and_easy_to_nnavigate](https://heropaulsee.com/character-designs)
-- [to_the_point_divs_could_be_smaller] (http://eloise-ress-barrow.surge.sh/index.html)
-- [shadow_boxes] (http://robertdiscipio.surge.sh/
+- [well_organized_and_easy_to_navigate](https://heropaulsee.com/character-designs)
+- [to_the_point_divs_could_be_smaller](http://eloise-ress-barrow.surge.sh/index.html)
+- [shadow_boxes](http://robertdiscipio.surge.sh/)
 - [cool_page_transitions](http://andrewhollingworth.com/)
 
 
@@ -75,9 +75,9 @@ Based on the initial logic defined in the previous sections try and breakdown th
 
 Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe.
 
-| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| fixing hw pages| H | 2 hours| tdb| tdb|
+| fixing hw pages| H | 2 hours| 3hrs| tdb|
 | Working with API | H | 3 hours| tbd| tbd|
 | Hamburger| H | 3 hours| tbd| tbd |
 | Style site boxes | H | 3 hours| tbd| tbd |

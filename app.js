@@ -21,23 +21,14 @@ let id = '1Sm9pA_c8Rl3wFzDcweYNdXfY0FlcZ5FYTjrgVpWZCEQ'
 
 let source = `https://spreadsheets.google.com/feeds/list/1Sm9pA_c8Rl3wFzDcweYNdXfY0FlcZ5FYTjrgVpWZCEQ/od6/public/values?alt=json`
 
-//let source = `https://spreadsheets.google.com/feeds/list/${id}/od6/public/values?alt=json`
-
-//actual url not published url
-
-
-//--fetch --//
-
-
 //fetch asks for the url provided and request that the data be sent to it.
 //it recieves JSON => js Object Notoation. Its going to return an array of objects.
 //we use json to parse the data from a string to a full blown {object}
 fetch(source)
    //when this data is input then ill respond with the parsed data
   .then( response => response.json() ) //this parses the data from string back into an object
-  //
   .then( data => {
-  console.log('data', data)
+  //console.log('data', data)
                 //data.feed.entry is the array that has the array stored
                 //the projects are stored as objects
                     //data is the whole object then the following are a nest of keys. then you make a map of it and reference the variavle as preference and each indexed item is project.
@@ -53,6 +44,8 @@ fetch(source)
                 app(projects)
                }) //this provides us access to the parse data
 
+               
+//how come this function is running without me having to call it?
 function app(projects){
   console.log('app - projects', projects)
 }
