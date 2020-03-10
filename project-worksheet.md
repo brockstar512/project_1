@@ -8,8 +8,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
-|Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
+|Day 1| Project Description | done
+|Day 1| Wireframes / Priority Matrix / Timeline | done
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Day 4| MVP & Bug Fixes | Incomplete
 |Day 5| Final Touches | Incomplete
@@ -79,7 +79,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | :---: |
 | fixing hw pages| H | 2 hours| 3hrs| tdb|
 | Working with API | H | 3 hours| tbd| tbd|
-| Hamburger| H | 3 hours| tbd| tbd |
+| Hamburger| H | 3 hours| 4 hours| tbd |
 | Style site boxes | H | 3 hours| tbd| tbd |
 | Style banner| H | 3 hours| tbd| tbd |
 | Getting email working| L| 1 hour| tbd| tbd |
@@ -90,6 +90,10 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
+- [contact_form](https://www.youtube.com/watch?v=GMH3rNTN4IQ)
+- [hamburger_menu](https://www.youtube.com/watch?v=xMTs8tAapnQ)
+
+
 
 ## Code Snippet
 
