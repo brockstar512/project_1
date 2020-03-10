@@ -15,6 +15,7 @@
 
 */
 
+
 let url = 'https://docs.google.com/spreadsheets/d/1Sm9pA_c8Rl3wFzDcweYNdXfY0FlcZ5FYTjrgVpWZCEQ/edit#gid=0'
 let id = '1Sm9pA_c8Rl3wFzDcweYNdXfY0FlcZ5FYTjrgVpWZCEQ'
 
@@ -42,23 +43,55 @@ fetch(source)
                   }
                 })
                 app(projects)
+
+
                }) //this provides us access to the parse data
 
                
 //how come this function is running without me having to call it?
+let $mainContainer = $(".generalAssembly")
 function app(projects){
-  console.log('app - projects', projects)
-}
+      projects.forEach( function(element) {
+      let $divProj = $('<div>').addClass('item')
+      //let $backgroundImg = $('<img>').addClass('backgroundImg')
+      //created a button to see the code for each project
+      //let $codeButton = $('<button>').addClass('btnCode')
+      //description for each project
+      let $desc =$('<p>').addClass('description')
+      let $heading =$('<h4>').addClass('title')
+      $heading.append(element['title'])
+      $desc.append(element['description'])
+      //the button. don't worry about button for now.
+      //$codeButton.append(element['URL'])
+      //$divProj.append($backgroundImg)
+      
+      $divProj.append($desc)
+      $divProj.prepend($heading)
+      $divProj.css('background-image', 'url("'+ element['image'] + '")')
+      //$('myOjbect').css('background-image', 'url("' + imageUrl + '")');
+      //let $mainContainer = $('div').attr('generalAssembly')
+      $mainContainer.append($divProj)
+    })
+  }
 
+   /*
+    for(let i = 0; i < projects.length;i++){
+      `<div class = "item">
+      <h4 class="heading">${projects.title}</h4>
+      <p class="desc">${projects.description}</p>
+      </div>`
+    }
+    */
+/*
 
+in case picture doesnt work
+//$('myOjbect').css('background-image', 'url("' + imageUrl + '")');
 
-//this is just how we want the data to look
-/*let projects = [
-  {title: 'Startup Matchmaker', image:'image url', desciption:'some desc', url:'url to project'}
-]*/
-
-
-
-
-
-
+const $imageHead =$('<img>')
+$imageHead.attr('src','https://images.unsplash.com/photo-1452195100486-9cc805987862?auto=format&fit=crop&w=750&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D')
+$body.prepend($imageHead)
+*/
+/*
+$('button selector').click(function(){
+    window.location.href='the_link_to_go_to.html';
+ })*/

@@ -1,3 +1,8 @@
+/*
+font-family: 'Roboto Mono', monospace;
+font-family: 'Bahiana', cursive;
+*/
+
 
 html, body{
   margin: 0px;
@@ -88,15 +93,34 @@ padding: 0 10px 0 10px;
 
 .generalAssembly{
     /*margin:50px 50px;*/
-  padding: 0 20%;
   text-align:center;
     display:grid;
   height:auto;
   grid-template-columns: repeat(1, 1fr);
 }
  
+.item{
+   /*below is picture info comment out if I want to just try Jquery*/
+   display:flex;
+   flex-direction: column;
+   background-color:black;
+   height:250px;
+   width:250px;
+   margin:5px 0 5px 0;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   box-shadow: -5px 5px 10px 1px rgba(0, 0, 0, .2);
+}
 
+.description{}
 
+.title{
+  flex:1;
+  background-color: white;
+  
+}
+/*
 .item:nth-of-type(1) {
    display:flex;
   flex-direction: column;
@@ -104,88 +128,8 @@ padding: 0 10px 0 10px;
   height:200px;
   width:200px;
   margin:5px 0 5px 0;
-  /*below is picture info comment out if I want to just try Jquery*/
-  background-image: url('https://res.cloudinary.com/dq6nhmmpi/image/upload/v1583851961/Screen_Shot_2020-03-10_at_9.51.44_AM_ppsyw6.png'); 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: -5px 5px 10px 1px rgba(0, 0, 0, .2);
-}
-.item:nth-of-type(2) {
-   display:flex;
-  flex-direction: column;
-  background-color:black;
-  height:200px;
-  width:200px;
-  margin:5px 0 5px 0;
-  /*below is picture info comment out if I want to just try Jquery*/
-  background-image: url('https://res.cloudinary.com/dq6nhmmpi/image/upload/v1583853384/Screen_Shot_2020-03-10_at_10.16.06_AM_l1fugf.png'); 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: -5px 5px 10px 1px rgba(0, 0, 0, .2);
-}
-.item:nth-of-type(3) {
-   display:flex;
-  flex-direction: column;
-  background-color:black;
-  height:200px;
-  width:200px;
-  margin:5px 0 5px 0;
- /*below is picture info comment out if I want to just try Jquery*/
- background-image: url('https://res.cloudinary.com/dq6nhmmpi/image/upload/v1583852088/Screen_Shot_2020-03-10_at_9.53.44_AM_uyf1g9.png'); 
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
- box-shadow: -5px 5px 10px 1px rgba(0, 0, 0, .2);
  
-
-}
-.item:nth-of-type(4) {
-   display:flex;
-  flex-direction: column;
-  background-color:black;
-  height:200px;
-  width:200px;
-  margin:5px 0 5px 0;
- /*below is picture info comment out if I want to just try Jquery*/
- background-image: url('https://res.cloudinary.com/dq6nhmmpi/image/upload/v1583786165/Screen_Shot_2020-03-09_at_12.40.32_PM_pocio9.png'); 
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
- box-shadow: -5px 5px 10px 1px rgba(0, 0, 0, .2);
-
-}
-.item:nth-of-type(5) {
-   display:flex;
-  flex-direction: column;
-  background-color:black;
-  height:200px;
-  width:200px;
-  margin:5px 0 5px 0;
-  /*below is picture info comment out if I want to just try Jquery*/
-  background-image: url('https://res.cloudinary.com/dq6nhmmpi/image/upload/v1583852088/Screen_Shot_2020-03-10_at_9.54.18_AM_jyfh6l.png'); 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: -5px 5px 10px 1px rgba(0, 0, 0, .2);
-
-}
-.item:nth-of-type(6) {
-   display:flex;
-  flex-direction: column;
-  background-color:black;
-  height:200px;
-  width:200px;
-  margin:5px 0 5px 0;
-  /*below is picture info comment out if I want to just try Jquery*/
-  background-image: url('https://res.cloudinary.com/dq6nhmmpi/image/upload/v1583851961/Screen_Shot_2020-03-10_at_9.51.44_AM_ppsyw6.png'); 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: -5px 5px 10px 1px rgba(0, 0, 0, .2);
-
-}
+}*/
 
 .contact > .form > p{
 text-align:center;
