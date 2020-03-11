@@ -1,6 +1,30 @@
 /*
+FONTS
 font-family: 'Roboto Mono', monospace;
-font-family: 'Bahiana', cursive;
+font-family: 'Bahiana', cursive; - using
+font-family: 'Roboto Slab', serif;
+font-family: 'Baloo 2', cursive; -using 
+
+COLORS
+
+salmon
+fa697c
+pink purple
+e13a9d
+purple
+9b45e4
+gold
+fcc169
+ANOTHER PALLETE
+
+orange
+f45905
+red 
+c70d3a
+purple
+512c62
+turq
+45969b
 */
 
 
@@ -27,7 +51,6 @@ html, body{
 
 .whereToB a{
   text-decoration: none;
-  color:gray;
   margin:0;
   margin-right:5px;
   line-height: 70px;
@@ -55,6 +78,7 @@ label{
 }
 .whereTo{
   display:none;
+  
 }
 
 ul{
@@ -66,19 +90,24 @@ border-top: solid black 1px;
 padding:5px 0;
 list-style-type: none;
 margin-bottom:0px;
+font-family: 'Baloo 2', cursive; 
 }
 a{
 text-decoration: none;
+
 }
 
 h1{
-text-align:center
+text-align:center;
+font-family: 'Bahiana', cursive;
+
 }
 
 
 .bio > p{
 padding: 0 10px 0 10px;
-  text-align:center
+  text-align:center;
+  font-family: 'Baloo 2', cursive;
 }
 
 .backgroundPhoto {
@@ -115,16 +144,23 @@ padding: 0 10px 0 10px;
 }
 .wrap{
   justify-content:space-around;
-  background-color:rgba(255,255,255,0.9);
+  background-color:rgba(255,255,255,0.92);
   height:50%;
   margin-top:65%;
+  box-shadow: 0 -5px 10px 1px rgba(0, 0, 0, .2);
 }
 
 .description{
+  text-align:left;
+  padding:0 2% 0 10%;
+  font-family: 'Baloo 2', cursive; 
+  
 }
 
 .title{
-  
+  font-family: 'Bahiana', cursive;
+  font-size: 175%;
+  margin:7% 0 1% 0;
 }
 /*
 .item:nth-of-type(1) {
@@ -141,20 +177,32 @@ button{
   background-color:black;
   color:rgba(255,255,255,0.9);
   border:none;
-  margin:5%;
+  margin: 0 5% 5% 5%;
   width:90px;
   height:40px;
-  font-size: 100%;
-  
+  font-size: 100%; 
+  font-family: 'Baloo 2', cursive; 
 }
 
 .contact > .form > p{
 text-align:center;
+font-family: 'Baloo 2', cursive;
+margin-top: 0;
 
 }
+.contact > .form > h1{
+  text-align:center;
+  margin:0 0 0 0;
+  }
+
+
+.contact > .form{
+  font-family: 'Bahiana', cursive;
+  }
 
 footer{
   margin-bottom:50px;
+  font-family: 'Baloo 2', cursive;
 }
 
 form{
@@ -233,7 +281,7 @@ background-color:lightgreen;
 /*title*/
 
 button{
-  margin:18% 0 0 0;
+  margin:2% 0 2% 0;
 }
 form{
   margin-top:25px;
@@ -292,7 +340,7 @@ body{
 }
 
 .bannerTop{
-    background-color: gray;
+    background-color: #fa697c;
     display:flex;
     text-align: center;
     /*opacity: 0.3;*/
@@ -355,7 +403,9 @@ nav >.whereTo{
     flex-basis:30%;
   }
   
-
+  button{
+    margin:5%;
+  }
  
   /*
   .item:nth-of-type(1) {
