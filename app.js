@@ -53,26 +53,36 @@ let $mainContainer = $(".generalAssembly")
 function app(projects){
       projects.forEach( function(element) {
       let $divProj = $('<div>').addClass('item')
-      //let $backgroundImg = $('<img>').addClass('backgroundImg')
       //created a button to see the code for each project
       //let $codeButton = $('<button>').addClass('btnCode')
-      //description for each project
       let $desc =$('<p>').addClass('description')
       let $heading =$('<h4>').addClass('title')
       $heading.append(element['title'])
       $desc.append(element['description'])
       //the button. don't worry about button for now.
       //$codeButton.append(element['URL'])
-      //$divProj.append($backgroundImg)
-      
-      $divProj.append($desc)
-      $divProj.prepend($heading)
+      let $wrapper =$('<div>').addClass('wrap')    
+      $wrapper.append($desc)
+      $wrapper.prepend($heading)
+      $divProj.append($wrapper)
+      //creating the button
+      let $seeCodeB =$('<button>') 
+      $seeCodeB .addClass('code').html('See Page')
+      $('.wrap').append($seeCodeB )
+      //end of creatin button
       $divProj.css('background-image', 'url("'+ element['image'] + '")')
-      //$('myOjbect').css('background-image', 'url("' + imageUrl + '")');
-      //let $mainContainer = $('div').attr('generalAssembly')
       $mainContainer.append($divProj)
+      
     })
   }
+
+
+  
+
+  $('.code').click(function() {
+    window.location.href = element['url'];
+    return false;
+  });
 
    /*
     for(let i = 0; i < projects.length;i++){
