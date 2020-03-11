@@ -67,22 +67,29 @@ function app(projects){
       $divProj.append($wrapper)
       //creating the button
       let $seeCodeB =$('<button>') 
-      $seeCodeB .addClass('code').html('See Page')
-      $('.wrap').append($seeCodeB )
-      //end of creatin button
+      $seeCodeB.addClass('code').html('See Page')
+      $wrapper.append($seeCodeB )
+
+
+      //end of creating button
       $divProj.css('background-image', 'url("'+ element['image'] + '")')
       $mainContainer.append($divProj)
+
+      //on click command
+      $seeCodeB.on('click', function() {
+        //window.location.href = 'https://www.google.com/';
+        window.open(element['url'])
+        return false;
+      });
       
     })
+    //button click function
   }
 
 
   
 
-  $('.code').click(function() {
-    window.location.href = element['url'];
-    return false;
-  });
+
 
    /*
     for(let i = 0; i < projects.length;i++){
