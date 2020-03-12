@@ -53,14 +53,12 @@ let $mainContainer = $(".generalAssembly")
 function app(projects){
       projects.forEach( function(element) {
       let $divProj = $('<div>').addClass('item')
-      //created a button to see the code for each project
-      //let $codeButton = $('<button>').addClass('btnCode')
+     
       let $desc =$('<p>').addClass('description')
       let $heading =$('<h4>').addClass('title')
       $heading.append(element['title'])
       $desc.append(element['description'])
-      //the button. don't worry about button for now.
-      //$codeButton.append(element['URL'])
+      
       let $wrapper =$('<div>').addClass('wrap')    
       $wrapper.append($desc)
       $wrapper.prepend($heading)
@@ -69,9 +67,8 @@ function app(projects){
       let $seeCodeB =$('<button>') 
       $seeCodeB.addClass('code').html('See Page')
       $wrapper.append($seeCodeB )
-
-
       //end of creating button
+      
       $divProj.css('background-image', 'url("'+ element['image'] + '")')
       $mainContainer.append($divProj)
 

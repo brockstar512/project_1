@@ -81,6 +81,10 @@ label{
   
 }
 
+nav > h1{
+  font-size:225%;
+}
+
 ul{
   
 display:flex;
@@ -102,6 +106,7 @@ text-align:center;
 font-family: 'Bahiana', cursive;
 
 }
+
 
 
 .bio > p{
@@ -332,7 +337,8 @@ li:nth-of-type(3){
     border-right: none;
 }
 nav > h1{
-margin-left: 4%;
+margin:1% 0 1% 4%;
+/*this margin will control the width of the banner*/
 }
 
 body{
@@ -355,6 +361,12 @@ nav >.whereTo{
     margin-left: 40%;
     margin-right: 1%;
     list-style-type: none;
+    margin-top: 0px;
+    font-size:125%;
+}
+
+nav > h1{
+ /*font-size:250%; this is the banner for the desktop*/
 }
 
 .backgroundPhoto {
@@ -373,6 +385,17 @@ nav >.whereTo{
       display:column;
       width: 100%;
     
+  }
+
+  .code{
+    margin-top:0px;
+    
+
+  }
+
+  .wrap{
+    margin-top: 200px;
+    height:238px;
   }
 
   .aboutMe{
@@ -400,7 +423,9 @@ nav >.whereTo{
   }
   .item{
     /*flex-grow:1;*/
-    flex-basis:30%;
+   width:253px;
+   height:438px;
+    
   }
   
   button{
