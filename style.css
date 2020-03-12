@@ -150,7 +150,7 @@ padding: 0 10px 0 10px;
    box-shadow: -5px 5px 10px 1px rgba(0, 0, 0, .2);
    height:434px;
    flex: 1 0 185px;
-   padding:20px;
+   /*padding:20px;*/
    flex-direction:column;
    max-width: 300px;
    
@@ -165,7 +165,7 @@ padding: 0 10px 0 10px;
 }
 .wrap{
 text-align:center;
-padding:0 10px;
+/*padding:0 20px;*/
 /* I only want shaddow box on the top---box-shadow: 0 -5px 10px 1px rgba(0, 0, 0, .2);*/
 }
 
@@ -216,8 +216,11 @@ margin-top: 0;
   }
 
 
-.contact > .form{
+.form{
   font-family: 'Bahiana', cursive;
+  margin-top: 50px;
+ padding-top: 10px;
+ text-align:center;
   }
 
 footer{
@@ -226,10 +229,16 @@ footer{
   /*dont think i have this anymore*/
 }
 
-form{
-margin:25px 0 10px 0;
+.contact{
+  background-color: lightblue;
+  margin:0 7%;
 
 }
+#contactform{
+  padding-bottom:15px;
+  margin-bottom:25px;
+}
+
 .form-control{
 width:150px;
 outline: none;
@@ -245,12 +254,6 @@ border-color:transparent;
 font-size:15px;
 }
 
-.form{
-text-align:center;
-padding-top: 45px;
-
-
-}
 
 .submit{
   width:50%;
@@ -326,6 +329,17 @@ form-control.submit{
   padding:10px 0 2px 0;
   width:150px;
 }
+#contactform{
+  padding-bottom:50px;
+ 
+  
+}
+
+.contact{
+  margin:0 15%;
+}
+
+
 
 }
 
@@ -339,7 +353,8 @@ form-control.submit{
   }
 
   .jmdb{
-    margin:2% 0;
+    margin:1% 0 1% .5%;
+    
     }
 
   a{
@@ -429,7 +444,7 @@ nav > h1{
   .item{
     /*flex-grow:1;*/
     margin:1%;
-    padding:2%;
+    /*padding:2%;*/
     
     
   }
@@ -465,6 +480,26 @@ nav > h1{
     padding:10px 0 2px 0;
     width:150px;
   }
+
+  .contact{
+    /*margin:0 200px;*/
+    padding-top:30px;
+    margin:0 20%;
+  
+  }
+  #contactform{
+    
+    
+  }
+
+  .form{
+    padding-bottom:55px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    
+    
+  }
+  
   
   
   }
