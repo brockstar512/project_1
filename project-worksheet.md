@@ -55,8 +55,8 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### MVP (examples)
 
-- hamburger
-- working with the API
+- hamburger (done)
+- working with the API ()
 - style
 
 #### PostMVP 

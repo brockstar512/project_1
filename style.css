@@ -30,6 +30,7 @@ turq
 
 html, body{
   margin: 0px;
+  
 }
 .navB{
  
@@ -49,15 +50,16 @@ html, body{
 
 }
 
+
 .whereToB a{
   text-decoration: none;
   margin:0;
   margin-right:5px;
   line-height: 70px;
   border-bottom:1px solid #EAEAEB;
-    display:flex;
-    justify-content: space-around;
-    align-items:center;
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
 }
 /*.whereToB>li:nth-of-type(3){
   border-bottom: none;
@@ -80,6 +82,8 @@ label{
   display:none;
   
 }
+
+
 
 nav > h1{
   font-size:225%;
@@ -104,9 +108,13 @@ text-decoration: none;
 h1{
 text-align:center;
 font-family: 'Bahiana', cursive;
+/*text-shadow: 2px 2px 5px #ff0000;*/
 
 }
 
+.jmdb{
+margin:4% 0;
+}
 
 
 .bio > p{
@@ -126,46 +134,53 @@ padding: 0 10px 0 10px;
 }
 
 .generalAssembly{
-    /*margin:50px 50px;*/
-  text-align:center;
-    display:grid;
-  height:auto;
-  grid-template-columns: repeat(1, 1fr);
-  padding-left:35px;
+ display:flex;
+ flex-wrap:wrap;
+ justify-content:space-around;
+ padding: 0 5px;
+ /*max-width: 350px;*/
+ 
+ 
 }
  
 .item{
    /*below is picture info comment out if I want to just try Jquery*/
    display:flex;
    flex-direction: column;
-   background-color:black;
-   height:auto;
-   width:250px;
-   margin:5px 0 5px 0;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
    box-shadow: -5px 5px 10px 1px rgba(0, 0, 0, .2);
+   height:434px;
+   flex: 1 0 185px;
+   padding:20px;
+   flex-direction:column;
+   max-width: 300px;
+   
+
+}
+.projImg{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:298px;
+  height:196px;
 }
 .wrap{
-  justify-content:space-around;
-  background-color:rgba(255,255,255,0.92);
-  height:50%;
-  margin-top:65%;
-  box-shadow: 0 -5px 10px 1px rgba(0, 0, 0, .2);
+text-align:center;
+padding:0 10px;
+/* I only want shaddow box on the top---box-shadow: 0 -5px 10px 1px rgba(0, 0, 0, .2);*/
 }
 
 .description{
-  text-align:left;
-  padding:0 2% 0 10%;
+  /*text-align:left;
+  padding:0 2% 0 10%;*/
   font-family: 'Baloo 2', cursive; 
+  text-align:left;
   
 }
 
 .title{
   font-family: 'Bahiana', cursive;
   font-size: 175%;
-  margin:7% 0 1% 0;
+  /*margin:7% 0 1% 0;*/
 }
 /*
 .item:nth-of-type(1) {
@@ -208,10 +223,12 @@ margin-top: 0;
 footer{
   margin-bottom:50px;
   font-family: 'Baloo 2', cursive;
+  /*dont think i have this anymore*/
 }
 
 form{
 margin:25px 0 10px 0;
+
 }
 .form-control{
 width:150px;
@@ -232,6 +249,7 @@ font-size:15px;
 text-align:center;
 padding-top: 45px;
 
+
 }
 
 .submit{
@@ -250,6 +268,12 @@ background-color:lightgreen;
   .whereToB{
     width:300px;
   }
+
+  .jmdb{
+    margin:2% 0;
+    }
+
+
   .whereToB a{
     display:flex;
     justify-content: space-around;
@@ -263,24 +287,18 @@ background-color:lightgreen;
 
 .generalAssembly{
   /*margin:50px 50px;*/
-  text-align:center;
-  grid-gap: 10px;
-  padding: 0 2% 0 3%;
-  height:auto;
-  display:grid;
-  grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+  padding: 0 20px;
+ 
 }
 
 .item{
-  height:450px;
-   width:350px;
-   display:flex;
+  min-width:275px;
+ 
 }
 /*.item changes boxes size*/
 .wrap{
-  height:50%;
-  margin-top:65%;
+  
+  
 }
 /*description*/
 /*title*/
@@ -319,6 +337,10 @@ form-control.submit{
   .navB{
     display:none;
   }
+
+  .jmdb{
+    margin:2% 0;
+    }
 
   a{
     text-decoration: none;
@@ -387,19 +409,8 @@ nav > h1{
     
   }
 
-  .code{
-    margin-top:0px;
-    
-
-  }
-
-  .wrap{
-    margin-top: 200px;
-    height:238px;
-  }
-
   .aboutMe{
-    background-color: lightyellow;
+    /*background-color: ;*/
     width: 100%;
     display:flex;
     justify-content:space-around;
@@ -412,24 +423,19 @@ nav > h1{
   }
  
   .generalAssembly{
-      padding:0% 5%;
-      margin:0 40px;
-      align-items:center;
-      grid-gap:10px;
-      display:flex;
-      justify-content:space-evenly;
-      flex-wrap: wrap;
-      
+    /*padding: 0 20px;*/
+    margin: 0 8% 8% 8%;
   }
   .item{
     /*flex-grow:1;*/
-   width:253px;
-   height:438px;
+    margin:1%;
+    padding:2%;
+    
     
   }
   
   button{
-    margin:5%;
+  
   }
  
   /*
@@ -438,38 +444,6 @@ nav > h1{
     grid-row: 1/2;
     background-color:black;
 
-  }
-
-  .item:nth-of-type(2) {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    background-color:black;
-
-  }
-  .item:nth-of-type(3){
-    grid-column: 3/4;
-    grid-row: 1/2;
-    background-color:black;
-
-  }
-
-  .item:nth-of-type(4) {
-    grid-column: 1/2;
-    grid-row: 2/3;
-    background-color:black;
-
-  }
-
-  .item:nth-of-type(5) {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    background-color:black;
-
-  }
-  .item:nth-of-type(6) {
-    grid-column: 3/4;
-    grid-row: 2/3;
-    background-color:black;
   }
   */
   form{
@@ -495,8 +469,7 @@ nav > h1{
   
   }
   
-  /*hamburger
-  https://www.youtube.com/watch?v=xMTs8tAapnQ*/
+
   
 
 

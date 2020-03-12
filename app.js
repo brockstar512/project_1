@@ -52,24 +52,38 @@ fetch(source)
 let $mainContainer = $(".generalAssembly")
 function app(projects){
       projects.forEach( function(element) {
+  
+        //the whole item
       let $divProj = $('<div>').addClass('item')
-     
+
+      //creating a div for picture and div for info.
+     let $projectImage =$('<div>').addClass('projImg')
+     let $wrapper =$('<div>').addClass('wrap')
+      
+
+      //div for info. connected info
       let $desc =$('<p>').addClass('description')
       let $heading =$('<h4>').addClass('title')
-      $heading.append(element['title'])
       $desc.append(element['description'])
+      $heading.append(element['title'])
+      $projectImage.css('background-image', 'url("'+ element['image'] + '")')
       
-      let $wrapper =$('<div>').addClass('wrap')    
+      //put heading and item into the div
       $wrapper.append($desc)
       $wrapper.prepend($heading)
-      $divProj.append($wrapper)
+      
       //creating the button
       let $seeCodeB =$('<button>') 
       $seeCodeB.addClass('code').html('See Page')
       $wrapper.append($seeCodeB )
-      //end of creating button
+      //end of creating button. adds button to items
+
+      $divProj.append($projectImage)
+      $divProj.append($wrapper)
       
-      $divProj.css('background-image', 'url("'+ element['image'] + '")')
+
+      
+      
       $mainContainer.append($divProj)
 
       //on click command
@@ -84,22 +98,19 @@ function app(projects){
   }
 
 
+
   
 
 
 
    /*
-    for(let i = 0; i < projects.length;i++){
-      `<div class = "item">
-      <h4 class="heading">${projects.title}</h4>
-      <p class="desc">${projects.description}</p>
-      </div>`
-    }
+   
+
+   
     */
 /*
 
-in case picture doesnt work
-//$('myOjbect').css('background-image', 'url("' + imageUrl + '")');
+
 
 const $imageHead =$('<img>')
 $imageHead.attr('src','https://images.unsplash.com/photo-1452195100486-9cc805987862?auto=format&fit=crop&w=750&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D')
