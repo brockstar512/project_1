@@ -56,7 +56,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### MVP (examples)
 
 - hamburger (done)
-- working with the API ()
+- working with the API (need to include github pages)
 - style
 
 #### PostMVP 
@@ -92,7 +92,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
  Use this section to list all supporting libraries and thier role in the project. 
 - [contact_form](https://www.youtube.com/watch?v=GMH3rNTN4IQ)
 - [hamburger_menu](https://www.youtube.com/watch?v=xMTs8tAapnQ)
-
+- [scrollSpin](https://codepen.io/HZaccaro/pen/zvrgLb)
 
 
 ## Code Snippet

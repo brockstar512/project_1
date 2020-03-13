@@ -25,6 +25,9 @@ purple
 512c62
 turq
 45969b
+
+tan 
+ffefd4
 */
 
 
@@ -50,6 +53,15 @@ html, body{
 
 }
 
+/*links are not working
+.link:hover:after,
+.underline:focus:after,
+.underline:active:after{
+  left: 0;
+  right: auto;
+  width: 100%;
+}
+*/
 
 .whereToB a{
   text-decoration: none;
@@ -115,6 +127,7 @@ font-family: 'Bahiana', cursive;
 .jmdb{
 margin:4% 0;
 padding-left:5px;
+/*color:white;*/
 }
 
 
@@ -125,7 +138,7 @@ padding: 0 10px 0 10px;
 }
 
 .backgroundPhoto {
-  background-image: url('https://res.cloudinary.com/dq6nhmmpi/image/upload/v1584117328/MarshallBrockSquiggle3_jgknsz.gif');
+  background-image: url('https://res.cloudinary.com/dq6nhmmpi/image/upload/v1584131549/tablet_squiggle0_syerjd.jpg');
   min-height: 75px; 
   background-attachment: fixed;
   background-position: center;
@@ -154,6 +167,7 @@ padding: 0 10px 0 10px;
    /*padding:20px;*/
    flex-direction:column;
    max-width: 300px;
+   margin:10px;
    
 
 }
@@ -208,7 +222,24 @@ button{
   height:40px;
   font-size: 100%; 
   font-family: 'Baloo 2', cursive; 
+  cursor:pointer;
 }
+
+
+/*
+.animation{
+  width:20%;
+  box-shadow: 0 -5px 10px 1px rgba(0, 0, 0, .2);
+}
+
+
+*/
+
+
+
+
+
+
 
 .contact > .form > p{
 text-align:center;
@@ -258,6 +289,7 @@ border-bottom: 1px solid gray;
 form-control.submit{
 border-color:transparent;
 font-size:15px;
+
 }
 
 
@@ -267,7 +299,9 @@ font-size:15px;
 }
 
 form .submit:hover{
-background-color:lightgreen;
+background-color:lightpink;
+cursor:pointer;
+
 }
 
 
@@ -279,9 +313,8 @@ background-color:lightgreen;
   }
 
   .jmdb{
-    margin:2% 0;
+    margin:10px 0;
     }
-
 
   .whereToB a{
     display:flex;
@@ -414,9 +447,9 @@ nav > h1{
 
 .backgroundPhoto {
    
-    background-image: url('https://res.cloudinary.com/dq6nhmmpi/image/upload/v1584117328/MarshallBrockSquiggle3_jgknsz.gif');
+    background-image: url('https://res.cloudinary.com/dq6nhmmpi/image/upload/v1584127568/name%20squiggles.jpg');
     min-height: 300px; 
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -449,7 +482,7 @@ nav > h1{
   }
   .item{
     /*flex-grow:1;*/
-    margin:1%;
+    margin:10px;
     /*padding:2%;*/
     
     
