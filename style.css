@@ -114,6 +114,7 @@ font-family: 'Bahiana', cursive;
 
 .jmdb{
 margin:4% 0;
+padding-left:5px;
 }
 
 
@@ -124,7 +125,7 @@ padding: 0 10px 0 10px;
 }
 
 .backgroundPhoto {
-  background-image: url('https://res.cloudinary.com/dq6nhmmpi/image/upload/v1583546644/sky_r8wmcr.jpg');
+  background-image: url('https://res.cloudinary.com/dq6nhmmpi/image/upload/v1584116289/nancyForSite/MarshallBrockSquiggle_dw3sbf.gif');
   min-height: 75px; 
   background-attachment: fixed;
   background-position: center;
@@ -413,7 +414,7 @@ nav > h1{
 
 .backgroundPhoto {
    
-    background-image: url('https://res.cloudinary.com/dq6nhmmpi/image/upload/v1583546644/sky_r8wmcr.jpg');
+    background-image: url('https://res.cloudinary.com/dq6nhmmpi/image/upload/v1584116289/nancyForSite/MarshallBrockSquiggle_dw3sbf.gif');
     min-height: 300px; 
     background-attachment: fixed;
     background-position: center;
