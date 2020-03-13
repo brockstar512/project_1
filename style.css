@@ -165,7 +165,10 @@ padding: 0 10px 0 10px;
 }
 .wrap{
 text-align:center;
-/*padding:0 20px;*/
+padding:0 20px;
+box-shadow: 0 -5px 10px 1px rgba(0, 0, 0, .2);
+/*height:100%;*/
+/*delete this is other doesn't work*/
 /* I only want shaddow box on the top---box-shadow: 0 -5px 10px 1px rgba(0, 0, 0, .2);*/
 }
 
@@ -174,6 +177,7 @@ text-align:center;
   padding:0 2% 0 10%;*/
   font-family: 'Baloo 2', cursive; 
   text-align:left;
+ 
   
 }
 
@@ -181,6 +185,7 @@ text-align:center;
   font-family: 'Bahiana', cursive;
   font-size: 175%;
   /*margin:7% 0 1% 0;*/
+  margin: 25px 0;
 }
 /*
 .item:nth-of-type(1) {
