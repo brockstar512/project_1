@@ -35,6 +35,9 @@ html, body{
   margin: 0px;
   
 }
+
+
+
 .navB{
  
   text-align: right;
@@ -43,15 +46,24 @@ html, body{
   position:absolute;
   right:10px;
   top:0px;
+  
 }
 .whereToB{
   
   width:200px;
   display:none;
-  background-color:black;
+  background-color:#fa697c;
   padding-bottom:0px;
+  margin-top: 0px;
 
 }
+
+/*
+.art{
+  
+}
+.animation{
+}*/
 
 /*links are not working
 .link:hover:after,
@@ -66,12 +78,12 @@ html, body{
 .whereToB a{
   text-decoration: none;
   margin:0;
-  margin-right:5px;
   line-height: 70px;
   border-bottom:1px solid #EAEAEB;
   display:flex;
   justify-content: space-around;
   align-items:center;
+  color:white;
 }
 /*.whereToB>li:nth-of-type(3){
   border-bottom: none;
@@ -105,8 +117,6 @@ ul{
   
 display:flex;
 justify-content:space-around;
-border-bottom: solid black 1px;
-border-top: solid black 1px;
 padding:5px 0;
 list-style-type: none;
 margin-bottom:0px;
@@ -128,6 +138,7 @@ font-family: 'Bahiana', cursive;
 margin:4% 0;
 padding-left:5px;
 /*color:white;*/
+background-color: #fa697c;
 }
 
 
@@ -138,9 +149,8 @@ padding: 0 10px 0 10px;
 }
 
 .backgroundPhoto {
-  background-image: url('https://res.cloudinary.com/dq6nhmmpi/image/upload/v1584131549/tablet_squiggle0_syerjd.jpg');
+  background-image: url('https://res.cloudinary.com/dq6nhmmpi/image/upload/v1584229003/mobile_Comp_2_200_j6cvil.jpg');
   min-height: 75px; 
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -312,6 +322,10 @@ cursor:pointer;
     width:300px;
   }
 
+  .backgroundPhoto {
+    background-image: url('https://res.cloudinary.com/dq6nhmmpi/image/upload/v1584229287/tablet_latestComp_2_300_pesje2.jpg');
+  }
+
   .jmdb{
     margin:10px 0;
     }
@@ -426,6 +440,10 @@ body{
     display:flex;
     text-align: center;
     /*opacity: 0.3;*/
+    /*position: fixed;*/
+    width: 100%;
+    /*THIS ILL GET THE BANNER TO STAY*/
+    
     
 }
 
@@ -437,8 +455,10 @@ nav >.whereTo{
     margin-left: 40%;
     margin-right: 1%;
     list-style-type: none;
-    margin-top: 0px;
     font-size:125%;
+    margin-bottom:1.5%;
+    padding-bottom:0px;
+    padding-top:0px;
 }
 
 nav > h1{

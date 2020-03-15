@@ -102,7 +102,7 @@ function app(projects){
 //hnry zaccaro codpn https://codepen.io/HZaccaro/pen/zvrgLb 
 
   $(function() {
-    // This will select everything with the class smoothScroll
+    // This will select everything with the class  
     // This should prevent problems with carousel, scrollspy, etc...
     $('.smoothScroll').click(function() {
       if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
