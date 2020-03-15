@@ -35,6 +35,22 @@ html, body{
   margin: 0px;
   
 }
+/*https://www.youtube.com/watch?v=9YffrCViTVk*/
+.animation{
+  position: relative;
+  width: 90%;
+  padding-bottom: 56.25%; 
+  height: 0;
+  margin-right:5%;
+  margin-left:5%;
+}
+.animation iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 
 
@@ -135,8 +151,8 @@ font-family: 'Bahiana', cursive;
 }
 
 .jmdb{
-margin:4% 0;
-padding-left:5px;
+margin:0;
+padding:10px 0 10px 5px;
 /*color:white;*/
 background-color: #fa697c;
 }
@@ -250,7 +266,6 @@ button{
 
 
 
-
 .contact > .form > p{
 text-align:center;
 font-family: 'Baloo 2', cursive;
@@ -279,7 +294,6 @@ footer{
 .contact{
   background-color: lightblue;
   margin:0 7%;
-
 }
 #contactform{
   padding-bottom:15px;
@@ -327,7 +341,10 @@ cursor:pointer;
   }
 
   .jmdb{
-    margin:10px 0;
+    margin:0;
+    padding-top:10px;
+    padding-bottom:10px
+
     }
 
   .whereToB a{
@@ -401,6 +418,10 @@ form-control.submit{
                                                                                           /*            large           */
 
 @media (min-width:1024px){
+  .animation{
+    margin-bottom:10%;
+  }
+  
   .navB{
     display:none;
   }
@@ -423,7 +444,7 @@ li{
     border-right: solid white 1px;
     flex:1;
 }
-li:nth-of-type(3){
+li:last-of-type{
     border-right: none;
 }
 nav > h1{
