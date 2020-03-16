@@ -8,11 +8,11 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | done
-|Day 1| Wireframes / Priority Matrix / Timeline | done
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 4| MVP & Bug Fixes | Incomplete
-|Day 5| Final Touches | Incomplete
+|Day 1| Project Description | complete
+|Day 1| Wireframes / Priority Matrix / Timeline | complete
+|Day 3| Core Application Structure (HTML, CSS, etc.) | complete
+|Day 4| MVP & Bug Fixes | complete
+|Day 5| Final Touches | complete
 |Day 6| Present | Incomplete
 
 
@@ -78,15 +78,15 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | fixing hw pages| H | 2 hours| 3hrs| tdb|
-| Working with API | H | 3 hours| tbd| tbd|
+| Working with API | H | 3 hours| 3 hours| tbd|
 | Hamburger| H | 3 hours| 4 hours| tbd |
-| Style site boxes | H | 3 hours| tbd| tbd |
-| Style banner| H | 3 hours| tbd| tbd |
+| Style site boxes | H | 3 hours| 10 hours| tbd |
+| Style banner| H | 3 hours| 3 hours| tbd |
 | Getting email working| L| 1 hour| tbd| tbd |
 | Seperating pages| L | 3 hours| tbd| tbd |
 | adding book| L | 2 hours| tbd| tbd |
-| adding animation reel| L | 2 hours| tbd| tbd |
-| Total | H | 22hrs| tbd| tbd |
+| adding animation reel| L | 2 hours| 3 hours| tbd |
+| Total | H | 22hrs| 31 hours| tbd |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
@@ -101,7 +101,48 @@ Use this section to include a brief code snippet of functionality that you are p
 
 ```
 function reverse(string) {
-	// here is the code to reverse a string of text
+
+	- [jquery](https://res.cloudinary.com/dq6nhmmpi/image/upload/v1584369066/Screen_Shot_2020-03-16_at_9.26.15_AM_lxwyla.png)
+
+	[        //the whole item
+      let $divProj = $('<div>').addClass('item')
+
+      //creating a div for picture and div for info.
+     let $projectImage =$('<div>').addClass('projImg')
+     let $wrapper =$('<div>').addClass('wrap')
+      
+
+      //div for info. connected info
+      let $desc =$('<p>').addClass('description')
+      let $heading =$('<h4>').addClass('title')
+      $desc.append(element['description'])
+      $heading.append(element['title'])
+      $projectImage.css('background-image', 'url("'+ element['image'] + '")')
+      
+      //put heading and item into the div
+      $wrapper.append($desc)
+      $wrapper.prepend($heading)
+      
+      //creating the button
+      let $seeCodeB =$('<button>') 
+      $seeCodeB.addClass('code').html('See Page')
+      $wrapper.append($seeCodeB )
+      //end of creating button. adds button to items
+
+      $divProj.append($projectImage)
+      $divProj.append($wrapper)
+      
+
+      $mainContainer.append($divProj)
+]
+
+
+  //on click command
+      $seeCodeB.on('click', function() {
+        //window.location.href = 'https://www.google.com/';
+        window.open(element['url'])
+        return false;
+      });
 }
 ```
 

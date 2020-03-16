@@ -82,8 +82,6 @@ function app(projects){
       $divProj.append($wrapper)
       
 
-      
-      
       $mainContainer.append($divProj)
 
       //on click command
