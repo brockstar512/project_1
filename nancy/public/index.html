@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <script src = "https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Bahiana|Roboto+Mono&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Baloo+2|Roboto+Slab&display=swap" rel="stylesheet">
+    
+    
+    
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css"></link>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Marshall Brock Portfolio</title>
+    
+    
+  </head>
+  <body>
+    <header>
+      <nav class="bannerTop">
+          <h1 class="jmdb">JMDB</h1>
+                                                                <div class ="navB">
+                                                                    <label for="toggle">&#9776;</label>
+                                                                    <input type = "checkbox" id="toggle"/>
+                                                                  <ul class = "whereToB">
+                                                                    <li><a href="#about" class="smoothScroll">About</a></li>
+                                                                    <li><a href="#apps" class="smoothScroll">Web Applications</a></li>
+                                                                    <li><a href="#animation" class="smoothScroll">Animation</a></li>
+                                                                    <li><a href="#books" class="smoothScroll">Children's Books</a></li>
+                                                                    <li><a href="#cont" class="smoothScroll">Contact</a></li>
+                                                                  </ul>
+                                                                </div>
+                
+                  <ul class = "whereTo">
+                      <li><a href="#about" class="smoothScroll">About</a></li>
+                      <li><a href="#apps" class="smoothScroll">Web Applications</a></li>
+                      <li><a href="#animation" class="smoothScroll">Animation</a></li>
+                      <li><a href="#books" class="smoothScroll">Children's Books</a></li>
+                      
+                      <li><a href="#cont" class="smoothScroll">Contact</a></li>
+                  </ul>
+            </nav>
+  </header>
+  <div class = "backgroundPhoto"></div>
+  <a id = "about"><div class = "container"></a>
+    <div class="aboutMe"><span class ='bio'><h1>About Me</h1><p>Hi My name is Marshall. I am a fullstack developer during the day, and an animator at night! I am currently taking part in a software engineering immersive with General Assembly and having loads of fun!</p></span>
+    </div>
+  
+            <a id ="apps"></a><h1>Web Applications</h1>
+          <div class = "generalAssembly">
+              
+           </div>
+          
+                    
+                    <a id ="animation"></a><h1>Animation Reel</h1>
+                    <div class = "art"></div>
+                    <div class ="animation">
+                          <iframe src="https://player.vimeo.com/video/384896269"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                          <p><a href="https://vimeo.com/384896269"></a> </p>
+                    </div>
+                    </div>
+  
+                    <a id ="books"></a>
+                    <h1 class ="children">Children's Books</h1>
+                    <div class ="books">
+                      
+    <div id="root"></div>
+  </div>
+
+                   
+  <a id ="cont"></a>
+  <div class ="contact">
+    <div class="form"><h1>Contact</h1>
+      <p> Feel free to reach out!</p>
+      <form id = "contactform" method="post" action="">
+        <input name="name" type="text" class="form-control" placeholder="You Name" required><br>
+        <input name ="email" type="email" class="form-control" placeholder="Your Email" required><br>
+        <textarea name ="message" class ="form-control" placeholder="Message" rows ="4" required></textarea><br>
+        <input type ="Submit" class="form-control submit" value ="SEND MESSAGE">
+      </form>
+      
+    </div>
+    
+
+  </div>
+
+</div>
+
+
+
+<script src="projects.js" charset="utf-8"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  </body>
+</html>

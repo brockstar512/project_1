@@ -1,0 +1,674 @@
+
+.App {
+  text-align: center;
+}
+ 
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+ 
+
+/*  
+body{
+  background: #09d3ac;
+} */
+ 
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+.slides {
+  position: relative;
+}
+
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index:1;
+}
+
+.slides .slick-prev {
+  left: 5%;
+}
+
+.slides .slick-next {
+  right: 5%;
+}
+
+/* ---------- */
+/*
+FONTS
+font-family: 'Roboto Mono', monospace;
+font-family: 'Bahiana', cursive; - using
+font-family: 'Roboto Slab', serif;
+font-family: 'Baloo 2', cursive; -using 
+
+COLORS
+
+salmon
+fa697c
+pink purple
+e13a9d
+purple
+9b45e4
+gold
+fcc169
+ANOTHER PALLETE
+
+orange
+f45905
+red 
+c70d3a
+purple
+512c62
+turq
+45969b
+
+tan 
+ffefd4
+*/
+
+/* adding some things post course \/*/
+.books{
+  box-shadow: -5px 5px 10px 1px rgba(0, 0, 0, .2);
+  margin-bottom:20px;
+  margin-left:4%;
+  margin-right:4%;
+}
+.children{
+  margin-bottom: 10;
+  /* margin-top: 0; */
+}
+
+/* adding some things post course ^*/
+
+html, body{
+  margin: 0px;
+  
+}
+/*https://www.youtube.com/watch?v=9YffrCViTVk*/
+.animation{
+  position: relative;
+  width: 90%;
+  padding-bottom: 56.25%; 
+  height: 0;
+  margin-right:5%;
+  margin-left:5%;
+  
+}
+.animation iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+}
+
+
+
+.navB{
+ 
+  text-align: right;
+  height:70px;
+  line-height:70px;
+  position:absolute;
+  right:10px;
+  top:0px;
+  
+}
+.whereToB{
+  
+  width:200px;
+  display:none;
+  background-color:#fa697c;
+  padding-bottom:0px;
+  margin-top: 0px;
+
+}
+
+/*
+.art{
+  
+}
+.animation{
+}*/
+
+/*links are not working
+.link:hover:after,
+.underline:focus:after,
+.underline:active:after{
+  left: 0;
+  right: auto;
+  width: 100%;
+}
+*/
+
+.whereToB a{
+  text-decoration: none;
+  margin:0;
+  line-height: 70px;
+  border-bottom:1px solid #EAEAEB;
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
+  color:white;
+}
+/*.whereToB>li:nth-of-type(3){
+  border-bottom: none;
+} didnt work*/
+
+label{
+  margin:0 40px 0 0;
+  font-size:26px;
+  line-height:70px;
+  display:block;
+}
+#toggle{
+  display:none;
+  cursor:pointer;
+}
+#toggle:checked +.whereToB{
+  display:block;
+}
+.whereTo{
+  display:none;
+  
+}
+
+
+
+nav > h1{
+  font-size:225%;
+}
+
+ul{
+  
+display:flex;
+justify-content:space-around;
+padding:5px 0;
+list-style-type: none;
+margin-bottom:0px;
+font-family: 'Baloo 2', cursive; 
+}
+a{
+text-decoration: none;
+
+}
+
+h1{
+text-align:center;
+font-family: 'Bahiana', cursive;
+/*text-shadow: 2px 2px 5px #ff0000;*/
+
+}
+
+.jmdb{
+margin:0;
+padding:10px 0 10px 5px;
+/*color:white;*/
+background-color: #fa697c;
+}
+
+
+.bio > p{
+padding: 0 10px 0 10px;
+  text-align:center;
+  font-family: 'Baloo 2', cursive;
+}
+
+.backgroundPhoto {
+  background-image: url('https://res.cloudinary.com/dq6nhmmpi/image/upload/v1584229003/mobile_Comp_2_200_j6cvil.jpg');
+  min-height: 75px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.generalAssembly{
+ display:flex;
+ flex-wrap:wrap;
+ justify-content:space-around;
+ padding: 0 5px;
+ /*max-width: 350px;*/
+ 
+ 
+}
+ 
+.item{
+   /*below is picture info comment out if I want to just try Jquery*/
+   display:flex;
+   flex-direction: column;
+   box-shadow: -5px 5px 10px 1px rgba(0, 0, 0, .2);
+   height:434px;
+   max-width: 300px;
+   margin:10px;
+   
+}
+.projImg{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:298px;
+  height:196px;
+}
+.wrap{
+text-align:center;
+padding:0 20px;
+box-shadow: 0 -5px 10px 1px rgba(0, 0, 0, .2);
+height: 60%;
+/*height:100%;*/
+/*delete this is other doesn't work*/
+/* I only want shaddow box on the top---box-shadow: 0 -5px 10px 1px rgba(0, 0, 0, .2);*/
+}
+
+.description{
+  font-family: 'Baloo 2', cursive; 
+  text-align:left;
+  height:60%;
+  margin:8px 0;
+  height: 45%;
+  
+}
+
+.title{
+  font-family: 'Bahiana', cursive;
+  font-size: 175%;
+  margin: 25px 0 5px 0;
+}
+/*
+.item:nth-of-type(1) {
+   display:flex;
+  flex-direction: column;
+  background-color:black;
+  height:200px;
+  width:200px;
+  margin:5px 0 5px 0;
+ 
+}*/
+
+button{
+  background-color:black;
+  color:rgba(255,255,255,0.9);
+  border:none;
+  margin: 5px auto 15px auto;
+  width:90px;
+  height:40px;
+  font-size: 100%; 
+  font-family: 'Baloo 2', cursive; 
+  cursor:pointer;
+}
+
+
+/*
+.animation{
+  width:20%;
+  box-shadow: 0 -5px 10px 1px rgba(0, 0, 0, .2);
+}
+
+
+*/
+
+
+
+
+
+
+.contact > .form > p{
+text-align:center;
+font-family: 'Baloo 2', cursive;
+margin-top: 0;
+
+}
+.contact > .form > h1{
+  text-align:center;
+  margin:0 0 0 0;
+  }
+
+
+.form{
+  font-family: 'Bahiana', cursive;
+  margin-top: 50px;
+ padding-top: 10px;
+ text-align:center;
+  }
+
+footer{
+  margin-bottom:50px;
+  font-family: 'Baloo 2', cursive;
+  /*dont think i have this anymore*/
+}
+
+.contact{
+  background-color: lightblue;
+  margin:0 7%;
+}
+#contactform{
+  padding-bottom:15px;
+  margin-bottom:25px;
+}
+
+.form-control{
+width:150px;
+outline: none;
+border:none;
+background:transparent;
+font-size:15px;
+border-bottom: 1px solid gray;
+
+
+}
+form-control.submit{
+border-color:transparent;
+font-size:15px;
+
+}
+
+
+.submit{
+  width:50%;
+  border-bottom:none;
+}
+
+form .submit:hover{
+background-color:lightpink;
+cursor:pointer;
+
+}
+
+
+
+                                                                                        /*      medium     */
+@media (min-width:768px) and (max-width:1023px){
+  .whereToB{
+    width:300px;
+  }
+
+  .backgroundPhoto {
+    background-image: url('https://res.cloudinary.com/dq6nhmmpi/image/upload/v1584229287/tablet_latestComp_2_300_pesje2.jpg');
+  }
+
+  .jmdb{
+    margin:0;
+    padding-top:10px;
+    padding-bottom:10px
+
+    }
+
+  .whereToB a{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+  }
+
+
+  .whereTo{
+    display:none;
+  }
+
+.generalAssembly{
+  /*margin:50px 50px;*/
+  padding: 0 20px;
+ 
+}
+
+.item{
+  min-width:275px;
+ 
+}
+/*.item changes boxes size*/
+.wrap{
+  
+  
+}
+/*description*/
+/*title*/
+
+button{
+  margin:2% 0 2% 0;
+}
+form{
+  margin-top:25px;
+  margin-bottom:50px;
+}
+.form-control{
+  width:450px;
+  font-size:15px;
+  border-bottom: 1px solid gray;
+  
+}
+form-control.submit{
+  border-color:transparent;
+  font-size:15px;
+ 
+}
+
+.submit{
+  padding:10px 0 2px 0;
+  width:150px;
+}
+#contactform{
+  padding-bottom:50px;
+ 
+  
+}
+
+.contact{
+  margin:0 15%;
+}
+
+
+
+}
+
+
+
+                                                                                          /*            large           */
+
+@media (min-width:1024px){
+  .animation{
+    margin-bottom:10%;
+  }
+  
+  .navB{
+    display:none;
+  }
+
+  .jmdb{
+    margin:1% 0 1% .5%;
+    
+    }
+
+  a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+  border: none;
+  display:flex;
+}
+
+li{
+    border-right: solid white 1px;
+    flex:1;
+}
+li:last-of-type{
+    border-right: none;
+}
+nav > h1{
+margin:1% 0 1% 4%;
+/*this margin will control the width of the banner*/
+}
+
+body{
+    width:100%;
+}
+
+.bannerTop{
+    background-color: #fa697c;
+    display:flex;
+    text-align: center;
+    /*opacity: 0.3;*/
+    /*position: fixed;*/
+    width: 100%;
+    /*THIS ILL GET THE BANNER TO STAY*/
+    
+    
+}
+
+nav >.whereTo{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex:1;
+    margin-left: 10%;
+    margin-right: 1%;
+    list-style-type: none;
+    font-size:125%;
+    margin-bottom:1.5%;
+    padding-bottom:0px;
+    padding-top:0px;
+}
+
+nav > h1{
+ /*font-size:250%; this is the banner for the desktop*/
+}
+
+.backgroundPhoto {
+   
+    background-image: url('https://res.cloudinary.com/dq6nhmmpi/image/upload/v1584127568/name%20squiggles.jpg');
+    min-height: 300px; 
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+  .container{
+      background-color: white;
+      display:column;
+      width: 100%;
+    
+  }
+
+  .aboutMe{
+    /*background-color: ;*/
+    width: 100%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+   
+  }
+
+  .bio > p{
+    padding: 0 10%;
+  }
+ 
+  .generalAssembly{
+    /*padding: 0 20px;*/
+    margin: 0 8% 8% 8%;
+  }
+  .item{
+    /*flex-grow:1;*/
+    margin:10px;
+    /*padding:2%;*/
+    
+    
+  }
+  
+  button{
+  
+  }
+ 
+  /*
+  .item:nth-of-type(1) {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color:black;
+
+  }
+  */
+  form{
+    margin-top:25px;
+    margin-bottom: 75px;
+  }
+  .form-control{
+    width:550px;
+    font-size:15px;
+    border-bottom: 1px solid gray;
+    
+  }
+  form-control.submit{
+    border-color:transparent;
+    font-size:15px;
+  }
+
+  .submit{
+    padding:10px 0 2px 0;
+    width:150px;
+    margin-top: 5%;
+  }
+
+  .contact{
+    /*margin:0 200px;*/
+    padding-top:30px;
+    margin:0 15%;
+    margin-top:5%;
+  
+  }
+  #contactform{
+    
+    
+  }
+
+  .form{
+    padding-bottom:55px;
+    margin-bottom: 50px;
+    margin-top: 15px;
+    
+    
+  }
+
+  .books{
+    box-shadow: -5px 5px 10px 1px rgba(0, 0, 0, .2);
+    margin-bottom:20px;
+    margin-left:10%;
+    margin-right:10%;
+  }
+  .children{
+    margin-bottom: 10;
+ 
+  }
+  
+  
+  
+  }
+  
+
+  
+
+
+
+
+
+
+
